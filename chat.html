@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Katalk by Liam Kim</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar_column">
+        <i class="material-icons">
+          alarm
+        </i>
+        <i class="material-icons">
+          volume_off
+        </i>
+        <i class="material-icons">
+          wifi
+        </i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="material-icons">
+          battery_charging_full
+        </i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <a href="index.html" class="header__back-btn">
+          <i class="material-icons">
+            arrow_back
+          </i>
+        </a>
+        <h1 class="header__header-title">best friend</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="material-icons">
+            search
+          </i>
+        </span>
+        <div class="header__icon">
+          <i class="material-icons">
+            expand_more
+          </i>
+        </div>
+      </div>
+    </header>
+    <main class="chat">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">
+          Thursday, March 8, 2018
+        </span>
+        <li class="incoming-message message">
+          <img src="images/saemin.jpg" class="g-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">BestFriend</span>
+            <div class="message__bubble">
+              Dude!!!! What were u up 2 last night? :)
+            </div>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="incoming-message message">
+          <div class="message__content">
+            <span class="message__timestamp"></span>
+            <div class="message__bubble">
+              Nothing much, I ve done bit of homework :(
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/saemin.jpg" class="g-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">BestFriend</span>
+            <div class="message__bubble">
+              Hey, dude!!! have u made the website yet?
+            </div>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-column">
+        <i class="material-icons">
+          add_box
+        </i>
+      </div>
+      <div class="chat__write-column">
+        <input
+          type="text"
+          placeholder="Type your message"
+          class=""
+          chat__write-input
+        />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="material-icons">
+            insert_emoticon
+          </i> </span
+        ><span class="chat__write-icon">
+          <i class="material-icons">
+            mic
+          </i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
