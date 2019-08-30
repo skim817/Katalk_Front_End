@@ -1,0 +1,14 @@
+.settings .settings_sections{
+    padding: 30px 0px;
+}
+.settings__list .settings_setting{
+    display: flex;
+    padding-bottom: 30px;
+}
+.settings i{
+    padding-right: 20px;
+}
+.settingtitle{
+    font-size: 22px;
+    font-weight: 400;
+}

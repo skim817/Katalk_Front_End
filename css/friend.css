@@ -31,7 +31,7 @@
   .friend__content .friend__status,
   .friend__content .friend__bottom-text
   {
-    opacity: 0.6;
+    color:grey;
   }
   .friend__content .friend__bottom-text{
     font-size:14px;
@@ -41,7 +41,7 @@
   }
   .friend .chat__timestamp{
     font-size:12px;
-    opacity: 0.6;
+    color:grey;
   }
   .friend .freidn__now-listening{
     cursor: pointer;
@@ -54,7 +54,7 @@
   }
   .freidn__now-listening span{
     margin-right: 10px;
-    opacity: 0.6;
+    color:grey;
   }
   .freidn__now-listening i{
     font-size: 20px;

@@ -21,7 +21,7 @@
 .nav .nav__list-link{
     position: relative
 }
-.nav .nav__badge{
+.nav__badge{
     position: absolute;
     font-size:10px;
     top:-10px;
